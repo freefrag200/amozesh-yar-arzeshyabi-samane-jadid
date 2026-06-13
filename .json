@@ -1,0 +1,7 @@
+var goodRadios = document.querySelectorAll('input[type="radio"][value="7150024322"]');
+
+goodRadios.forEach(function(radio) {
+    radio.click();
+});
+
+console.log('تعداد ' + goodRadios.length + ' سوال روی گزینه "خوب" تنظیم شد.');
